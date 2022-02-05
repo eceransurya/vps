@@ -24,3 +24,5 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
+orbs:
+  python: circleci/python@1.5.0
